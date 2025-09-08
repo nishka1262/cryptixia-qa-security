@@ -25,13 +25,20 @@ Decentralized AI-Powered Crypto Wallet with NFT Agents
 - **Backend/AI:** Node.js, LangChain, Pinecone/Weaviate, IPFS  
 - **Deployment:** Avalanche Fuji Testnet, Vercel
 
+  
 ## ⚡ Setup Instructions
-```bash
- git clone https://github.com/<your-org>/<your-repo>.git
- cd <your-repo>
-- Install dependencies: npm install (frontend & backend), foundryup (contracts)
-- Run development server: npm run dev
-- For contracts: forge test to run tests
+
+1. Clone the repo:
+   - `git clone https://github.com/<your-org>/<your-repo>.git`
+   - `cd <your-repo>`
+2. Install dependencies:
+   - Frontend & backend: `npm install`
+   - Contracts: `foundryup`
+3. Run development server:
+   - `npm run dev`
+4. Run contract tests:
+   - `forge test`
+
   
 ## 🧑‍🤝‍🧑 Team
 - Lead (Dev1): Contracts & DevOps
